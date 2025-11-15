@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  searxng:
+    image: searxng/searxng:latest
+    container_name: searxng
+    ports:
+      - "8080:8080"
+    environment:
+      - SEARXNG_BASE_URL=http://localhost:8080/
+      - SEARXNG_PUBLIC_INSTANCE=false
+      - SEARXNG_ALLOW_PUBLIC_API=true
+      - TZ=Asia/Kolkata
+    restart: unless-stopped
