@@ -1,0 +1,9 @@
+# base runtimes similar to your existing requirements, plus scraping helper
+requests
+beautifulsoup4
+ollama
+langchain_huggingface
+langchain_community
+langchain_text_splitters
+chromadb
+sentence-transformers
