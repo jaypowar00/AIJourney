@@ -90,6 +90,7 @@ qa = RetrievalQA.from_chain_type(
 )
 
 query = "How will we handle PII during migration?"
+print("\n#########################################################")
 print("Query: ", query, end="\n\nResponse:\n")
 
 output = qa.invoke({'query': query})

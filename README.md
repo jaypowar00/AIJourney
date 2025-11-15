@@ -22,17 +22,18 @@ Perfect for **hackathons, AI events, and team learning**.
 ```
 AIJourney/
 │
-├── rag_demo/
+├── simple_rag/
 │   ├── rag_demo.py
 │   ├── requirements.txt
+│   ├── quick-setup.sh
 │   └── README.md
 │
 ├── ai_agent/
 │   ├── agent_demo.py
 │   ├── requirements-agent.txt
-│   ├── test_semantics.py
 │   ├── searxng/
 │   │   └── docker-compose.yaml
+│   ├── quick-setup.sh
 │   └── README.md
 │
 └── README.md
