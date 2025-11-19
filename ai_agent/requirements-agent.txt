@@ -7,3 +7,4 @@ langchain_community
 langchain_text_splitters
 chromadb
 sentence-transformers
+google_search_results
